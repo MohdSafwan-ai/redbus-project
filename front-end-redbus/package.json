@@ -30,10 +30,10 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "netlify deploy --prod",
-    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
-    "test": "react-scripts test",
+    "dev": "node scripts/reactScripts.js start",
+    "start": "node scripts/reactScripts.js start",
+    "build": "node scripts/reactScripts.js build",
+    "test": "node scripts/reactScripts.js test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
