@@ -13,6 +13,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "seed:travel": "node scripts/seedTravelData.js",
     "dev": "node app.js",
     "start": "node app.js"
   },

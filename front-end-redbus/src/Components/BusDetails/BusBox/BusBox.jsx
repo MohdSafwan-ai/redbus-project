@@ -47,13 +47,14 @@ const BusBox = ({
 
   var seatPrice = 0;
   var busTypeName = "";
-  if (busType === 1) {
+  const busTypeValue = Number(busType);
+  if (busTypeValue === 1) {
     seatPrice = 50 * Math.floor(routeDetails["duration"] / 2);
     busTypeName = "Seater";
-  } else if (busType === 2) {
+  } else if (busTypeValue === 2) {
     seatPrice = 100 * Math.floor(routeDetails["duration"] / 2);
     busTypeName = "Sleeper";
-  } else if (busType === 3) {
+  } else if (busTypeValue === 3) {
     seatPrice = 125 * Math.floor(routeDetails["duration"] / 2);
     busTypeName = "A/C Seater";
   } else {

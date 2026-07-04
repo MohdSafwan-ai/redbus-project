@@ -46,11 +46,12 @@ const Right = () => {
   ) {
   } else {
     filteredMatchedBuses = filteredMatchedBuses.filter((item) => {
+      const busType = Number(item.busType);
       return (
-        (checkBusType["seater"] === true && item.busType === 1) ||
-        (checkBusType["sleeper"] === true && item.busType === 2) ||
-        (checkBusType["ac"] === true && item.busType === 3) ||
-        (checkBusType["nonac"] === true && item.busType === 4)
+        (checkBusType["seater"] === true && busType === 1) ||
+        (checkBusType["sleeper"] === true && busType === 2) ||
+        (checkBusType["ac"] === true && busType === 3) ||
+        (checkBusType["nonac"] === true && busType === 4)
       );
     });
   }

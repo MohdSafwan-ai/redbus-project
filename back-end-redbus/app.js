@@ -1,5 +1,9 @@
 const express = require("express");
-require("dotenv").config({ quiet: true });
+const path = require("path");
+require("dotenv").config({
+  path: path.resolve(__dirname, ".env"),
+  quiet: true,
+});
 const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");

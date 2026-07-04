@@ -6,7 +6,7 @@ const busSchema = new Schema({
     required: true,
   },
   busType: {
-    type: String,
+    type: Number,
     required: true,
   },
   departureTime: {
