@@ -76,11 +76,7 @@ const connect = () => {
 
 
 const port = process.env.PORT || 3020;
-let host = process.env.HOST;
-
-if (host && host.startsWith("http")) {
-  host = new URL(host).hostname;
-}
+const host = "0.0.0.0";
 
 const start = async () => {
   if (!process.env.DATABASE) {
@@ -94,7 +90,9 @@ const start = async () => {
   try {
     await connect();
     console.log("Database connected");
-    app.listen(port, host, () => console.log("Server is running"));
+    app.listen(port, host, () =>
+      console.log(`Server is running on ${host}:${port}`)
+    );
   } catch (err) {
     console.error("Failed to connect to MongoDB:", err.message);
     process.exit(1);
