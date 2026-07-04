@@ -51,14 +51,9 @@ const Payment = () => {
   const isCovidDonated = useSelector(
     (state) => state.busDetailsReducer.isCovidDonated
   );
-  const [product] = React.useState({
-    name: "React from facebook",
-    price: 10,
-    productBy: "Facebook",
-  });
   const history = useHistory();
 
-  const makePayment = async (token) => {
+  const makePayment = async () => {
     let myBooking = {};
     // create booking object
     myBooking.customerId = currentCustomer._id;

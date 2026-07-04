@@ -32,14 +32,8 @@ const Payment = () => {
     email,
     fare: price * 500,
   };
-  // stripe make payment start
-  const [product] = React.useState({
-    name: "React from facebook",
-    price: 10,
-    productBy: "Facebook",
-  });
   const history = useHistory();
-  const makePayment = async (token) => {
+  const makePayment = async () => {
     try {
       let res = await axios.post(
         `${process.env.REACT_APP_BACKEND_URL}/v1/api/bookingHire`,
