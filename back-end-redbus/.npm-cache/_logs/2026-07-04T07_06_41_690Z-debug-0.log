@@ -1,0 +1,355 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus\.npmrc
+5 silly config load:file:C:\Users\mosaf\.npmrc
+6 silly config load:file:C:\Users\mosaf\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus\.npm-cache\_logs\2026-07-04T07_06_41_690Z-
+10 verbose logfile C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus\.npm-cache\_logs\2026-07-04T07_06_41_690Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+15 silly reify mark retired [
+15 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\bl'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\bluebird'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\bson'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\denque'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\kareem'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mongodb'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mongoose'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mongoose-legacy-pluralize'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mquery'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mpath'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\regexp-clone'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\require_optional'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\resolve-from'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\saslprep'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sift'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sliced'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sparse-bitfield'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\stripe'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\bson'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\node'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\mongodb'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mime',
+36 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\mime',
+36 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\mime.cmd',
+36 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\mime.ps1'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\semver',
+37 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\semver',
+37 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\semver.cmd',
+37 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\semver.ps1'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\uuid',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\uuid',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\uuid.cmd',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\uuid.ps1'
+38 silly reify ]
+39 silly reify moves {
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\bl': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bl-POomL7uy',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\bluebird': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bluebird-JJuHfpr9',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\bson': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bson-6vJ71hp8',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\denque': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.denque-WrHkUexW',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\kareem': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.kareem-gKjQBvc9',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mongodb': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.mongodb-6mHyQKWK',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mongoose': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.mongoose-sNy0y7gO',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mongoose-legacy-pluralize': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.mongoose-legacy-pluralize-tDp1erBm',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mquery': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.mquery-xuQd1MJ5',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mpath': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.mpath-Nhpxlp66',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\regexp-clone': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.regexp-clone-sDGDM6a1',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\require_optional': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.require_optional-shWfpLpW',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\resolve-from': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.resolve-from-eBaYlKqb',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\saslprep': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.saslprep-a2VdQDsL',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sift': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.sift-dhRiYhFJ',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sliced': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.sliced-YrIO045w',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sparse-bitfield': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.sparse-bitfield-e2yei1XW',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\stripe': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.stripe-w0b1V2Qb',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\bson': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\.bson-lZ1TQlRs',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\node': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\.node-6hFOchyk',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\mongodb': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\.mongodb-rhARdXPn',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mime': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.mime-3pQvkcWq',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\mime': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\.mime-xvq05sDi',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\mime.cmd': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\.mime.cmd-EbTHtkNs',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\mime.ps1': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\.mime.ps1-1udV7UGs',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\semver': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.semver-6cZg1ofQ',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\semver': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\.semver-O7YO5lmM',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\.semver.cmd-cEoVuKcC',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\.semver.ps1-HKOEEMK5',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\uuid': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.uuid-aI8FUaGb',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\uuid': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\.uuid-Oxe9P5OD',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\uuid.cmd': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\.uuid.cmd-wDKUUx1s',
+39 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\uuid.ps1': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bin\\.uuid.ps1-bGqjKVdh'
+39 silly reify }
+40 silly audit bulk request {
+40 silly audit   '@types/bson': [ '4.0.3' ],
+40 silly audit   '@types/mongodb': [ '3.6.9' ],
+40 silly audit   '@types/node': [ '14.14.33' ],
+40 silly audit   accepts: [ '1.3.7' ],
+40 silly audit   'array-flatten': [ '1.1.1' ],
+40 silly audit   bl: [ '2.2.1' ],
+40 silly audit   bluebird: [ '3.5.1' ],
+40 silly audit   'body-parser': [ '1.19.0' ],
+40 silly audit   bson: [ '1.1.5' ],
+40 silly audit   bytes: [ '3.1.0' ],
+40 silly audit   'content-disposition': [ '0.5.3' ],
+40 silly audit   'content-type': [ '1.0.4' ],
+40 silly audit   cookie: [ '0.4.0' ],
+40 silly audit   'cookie-signature': [ '1.0.6' ],
+40 silly audit   'core-util-is': [ '1.0.2' ],
+40 silly audit   cors: [ '2.8.5' ],
+40 silly audit   debug: [ '2.6.9', '3.1.0' ],
+40 silly audit   denque: [ '1.5.0' ],
+40 silly audit   depd: [ '1.1.2' ],
+40 silly audit   destroy: [ '1.0.4' ],
+40 silly audit   'ee-first': [ '1.1.1' ],
+40 silly audit   encodeurl: [ '1.0.2' ],
+40 silly audit   'escape-html': [ '1.0.3' ],
+40 silly audit   etag: [ '1.8.1' ],
+40 silly audit   express: [ '4.17.1' ],
+40 silly audit   finalhandler: [ '1.1.2' ],
+40 silly audit   forwarded: [ '0.1.2' ],
+40 silly audit   fresh: [ '0.5.2' ],
+40 silly audit   'http-errors': [ '1.7.2' ],
+40 silly audit   'iconv-lite': [ '0.4.24' ],
+40 silly audit   inherits: [ '2.0.3' ],
+40 silly audit   'ipaddr.js': [ '1.9.1' ],
+40 silly audit   isarray: [ '1.0.0' ],
+40 silly audit   kareem: [ '2.3.2' ],
+40 silly audit   'media-typer': [ '0.3.0' ],
+40 silly audit   'memory-pager': [ '1.5.0' ],
+40 silly audit   'merge-descriptors': [ '1.0.1' ],
+40 silly audit   methods: [ '1.1.2' ],
+40 silly audit   mime: [ '1.6.0' ],
+40 silly audit   'mime-db': [ '1.46.0' ],
+40 silly audit   'mime-types': [ '2.1.29' ],
+40 silly audit   mongodb: [ '3.6.4' ],
+40 silly audit   mongoose: [ '5.11.19' ],
+40 silly audit   'mongoose-legacy-pluralize': [ '1.0.2' ],
+40 silly audit   ms: [ '2.1.2', '2.0.0', '2.1.1' ],
+40 silly audit   'safe-buffer': [ '5.2.1', '5.1.2' ],
+40 silly audit   mpath: [ '0.8.3' ],
+40 silly audit   mquery: [ '3.2.4' ],
+40 silly audit   negotiator: [ '0.6.2' ],
+40 silly audit   'object-assign': [ '4.1.1' ],
+40 silly audit   'on-finished': [ '2.3.0' ],
+40 silly audit   parseurl: [ '1.3.3' ],
+40 silly audit   'path-to-regexp': [ '0.1.7' ],
+40 silly audit   'process-nextick-args': [ '2.0.1' ],
+40 silly audit   'proxy-addr': [ '2.0.6' ],
+40 silly audit   qs: [ '6.7.0' ],
+40 silly audit   'range-parser': [ '1.2.1' ],
+40 silly audit   'raw-body': [ '2.4.0' ],
+40 silly audit   'readable-stream': [ '2.3.7' ],
+40 silly audit   'regexp-clone': [ '1.0.0' ],
+40 silly audit   require_optional: [ '1.0.1' ],
+40 silly audit   'resolve-from': [ '2.0.0' ],
+40 silly audit   'safer-buffer': [ '2.1.2' ],
+40 silly audit   saslprep: [ '1.0.3' ],
+40 silly audit   semver: [ '5.7.1' ],
+40 silly audit   send: [ '0.17.1' ],
+40 silly audit   'serve-static': [ '1.14.1' ],
+40 silly audit   setprototypeof: [ '1.1.1' ],
+40 silly audit   sift: [ '7.0.1' ],
+40 silly audit   sliced: [ '1.0.1' ],
+40 silly audit   'sparse-bitfield': [ '3.0.3' ],
+40 silly audit   statuses: [ '1.5.0' ],
+40 silly audit   string_decoder: [ '1.1.1' ],
+40 silly audit   stripe: [ '8.138.0' ],
+40 silly audit   toidentifier: [ '1.0.0' ],
+40 silly audit   'type-is': [ '1.6.18' ],
+40 silly audit   unpipe: [ '1.0.0' ],
+40 silly audit   'util-deprecate': [ '1.0.2' ],
+40 silly audit   'utils-merge': [ '1.0.1' ],
+40 silly audit   uuid: [ '8.3.2' ],
+40 silly audit   vary: [ '1.1.2' ]
+40 silly audit }
+41 http cache @types/mongodb@https://registry.npmjs.org/@types/mongodb/-/mongodb-3.6.9.tgz 0ms (cache hit)
+42 http cache uuid@https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz 0ms (cache hit)
+43 http cache semver@https://registry.npmjs.org/semver/-/semver-5.7.1.tgz 0ms (cache hit)
+44 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-14.14.33.tgz 0ms (cache hit)
+45 http cache mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 0ms (cache hit)
+46 http cache @types/bson@https://registry.npmjs.org/@types/bson/-/bson-4.0.3.tgz 0ms (cache hit)
+47 http cache stripe@https://registry.npmjs.org/stripe/-/stripe-8.138.0.tgz 0ms (cache hit)
+48 http cache sliced@https://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz 0ms (cache hit)
+49 http cache sparse-bitfield@https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz 0ms (cache hit)
+50 http cache sift@https://registry.npmjs.org/sift/-/sift-7.0.1.tgz 0ms (cache hit)
+51 http cache require_optional@https://registry.npmjs.org/require_optional/-/require_optional-1.0.1.tgz 0ms (cache hit)
+52 http cache resolve-from@https://registry.npmjs.org/resolve-from/-/resolve-from-2.0.0.tgz 0ms (cache hit)
+53 http cache saslprep@https://registry.npmjs.org/saslprep/-/saslprep-1.0.3.tgz 0ms (cache hit)
+54 http cache regexp-clone@https://registry.npmjs.org/regexp-clone/-/regexp-clone-1.0.0.tgz 0ms (cache hit)
+55 http cache mpath@https://registry.npmjs.org/mpath/-/mpath-0.8.3.tgz 0ms (cache hit)
+56 http cache mongoose-legacy-pluralize@https://registry.npmjs.org/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz 0ms (cache hit)
+57 http cache mongoose@https://registry.npmjs.org/mongoose/-/mongoose-5.11.19.tgz 0ms (cache hit)
+58 http cache mongodb@https://registry.npmjs.org/mongodb/-/mongodb-3.6.4.tgz 0ms (cache hit)
+59 http cache kareem@https://registry.npmjs.org/kareem/-/kareem-2.3.2.tgz 0ms (cache hit)
+60 http cache denque@https://registry.npmjs.org/denque/-/denque-1.5.0.tgz 0ms (cache hit)
+61 http cache bson@https://registry.npmjs.org/bson/-/bson-1.1.5.tgz 0ms (cache hit)
+62 http cache bluebird@https://registry.npmjs.org/bluebird/-/bluebird-3.5.1.tgz 0ms (cache hit)
+63 http cache mquery@https://registry.npmjs.org/mquery/-/mquery-3.2.4.tgz 0ms (cache hit)
+64 http cache bl@https://registry.npmjs.org/bl/-/bl-2.2.1.tgz 0ms (cache hit)
+65 silly tarball no local data for @types/mongodb@https://registry.npmjs.org/@types/mongodb/-/mongodb-3.6.9.tgz. Extracting by manifest.
+66 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz. Extracting by manifest.
+67 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-5.7.1.tgz. Extracting by manifest.
+68 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-14.14.33.tgz. Extracting by manifest.
+69 silly tarball no local data for mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz. Extracting by manifest.
+70 silly tarball no local data for @types/bson@https://registry.npmjs.org/@types/bson/-/bson-4.0.3.tgz. Extracting by manifest.
+71 silly tarball no local data for stripe@https://registry.npmjs.org/stripe/-/stripe-8.138.0.tgz. Extracting by manifest.
+72 silly tarball no local data for sliced@https://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz. Extracting by manifest.
+73 silly tarball no local data for sparse-bitfield@https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz. Extracting by manifest.
+74 silly tarball no local data for sift@https://registry.npmjs.org/sift/-/sift-7.0.1.tgz. Extracting by manifest.
+75 http cache debug@https://registry.npmjs.org/debug/-/debug-3.1.0.tgz 0ms (cache hit)
+76 silly tarball no local data for require_optional@https://registry.npmjs.org/require_optional/-/require_optional-1.0.1.tgz. Extracting by manifest.
+77 silly tarball no local data for resolve-from@https://registry.npmjs.org/resolve-from/-/resolve-from-2.0.0.tgz. Extracting by manifest.
+78 silly tarball no local data for saslprep@https://registry.npmjs.org/saslprep/-/saslprep-1.0.3.tgz. Extracting by manifest.
+79 silly tarball no local data for regexp-clone@https://registry.npmjs.org/regexp-clone/-/regexp-clone-1.0.0.tgz. Extracting by manifest.
+80 silly tarball no local data for mpath@https://registry.npmjs.org/mpath/-/mpath-0.8.3.tgz. Extracting by manifest.
+81 silly tarball no local data for mongoose-legacy-pluralize@https://registry.npmjs.org/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz. Extracting by manifest.
+82 silly tarball no local data for mongoose@https://registry.npmjs.org/mongoose/-/mongoose-5.11.19.tgz. Extracting by manifest.
+83 silly tarball no local data for mongodb@https://registry.npmjs.org/mongodb/-/mongodb-3.6.4.tgz. Extracting by manifest.
+84 silly tarball no local data for kareem@https://registry.npmjs.org/kareem/-/kareem-2.3.2.tgz. Extracting by manifest.
+85 silly tarball no local data for denque@https://registry.npmjs.org/denque/-/denque-1.5.0.tgz. Extracting by manifest.
+86 silly tarball no local data for bson@https://registry.npmjs.org/bson/-/bson-1.1.5.tgz. Extracting by manifest.
+87 silly tarball no local data for bluebird@https://registry.npmjs.org/bluebird/-/bluebird-3.5.1.tgz. Extracting by manifest.
+88 silly tarball no local data for mquery@https://registry.npmjs.org/mquery/-/mquery-3.2.4.tgz. Extracting by manifest.
+89 silly tarball no local data for bl@https://registry.npmjs.org/bl/-/bl-2.2.1.tgz. Extracting by manifest.
+90 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-3.1.0.tgz. Extracting by manifest.
+91 verbose audit error FetchError: request to https://registry.npmjs.org/-/npm/v1/security/advisories/bulk failed, reason: 
+91 verbose audit error     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+91 verbose audit error     at ClientRequest.emit (node:events:509:28)
+91 verbose audit error     at emitErrorEvent (node:_http_client:109:11)
+91 verbose audit error     at _destroy (node:_http_client:993:9)
+91 verbose audit error     at onSocketNT (node:_http_client:1013:5)
+91 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+91 verbose audit error   code: 'EACCES',
+91 verbose audit error   errno: 'EACCES',
+91 verbose audit error   type: 'system'
+91 verbose audit error }
+92 silly audit error undefined
+93 silly audit report null
+94 http fetch GET https://registry.npmjs.org/@types/mongodb/-/mongodb-3.6.9.tgz attempt 1 failed with EACCES
+95 http fetch GET https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz attempt 1 failed with EACCES
+96 http fetch GET https://registry.npmjs.org/semver/-/semver-5.7.1.tgz attempt 1 failed with EACCES
+97 http fetch GET https://registry.npmjs.org/@types/node/-/node-14.14.33.tgz attempt 1 failed with EACCES
+98 http fetch GET https://registry.npmjs.org/mime/-/mime-1.6.0.tgz attempt 1 failed with EACCES
+99 http fetch GET https://registry.npmjs.org/@types/bson/-/bson-4.0.3.tgz attempt 1 failed with EACCES
+100 http fetch GET https://registry.npmjs.org/stripe/-/stripe-8.138.0.tgz attempt 1 failed with EACCES
+101 http fetch GET https://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz attempt 1 failed with EACCES
+102 http fetch GET https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz attempt 1 failed with EACCES
+103 http fetch GET https://registry.npmjs.org/sift/-/sift-7.0.1.tgz attempt 1 failed with EACCES
+104 http fetch GET https://registry.npmjs.org/require_optional/-/require_optional-1.0.1.tgz attempt 1 failed with EACCES
+105 http fetch GET https://registry.npmjs.org/resolve-from/-/resolve-from-2.0.0.tgz attempt 1 failed with EACCES
+106 http fetch GET https://registry.npmjs.org/saslprep/-/saslprep-1.0.3.tgz attempt 1 failed with EACCES
+107 http fetch GET https://registry.npmjs.org/regexp-clone/-/regexp-clone-1.0.0.tgz attempt 1 failed with EACCES
+108 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with EACCES
+109 http fetch GET https://registry.npmjs.org/@types/mongodb/-/mongodb-3.6.9.tgz attempt 2 failed with EACCES
+110 http fetch GET https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz attempt 2 failed with EACCES
+111 http fetch GET https://registry.npmjs.org/semver/-/semver-5.7.1.tgz attempt 2 failed with EACCES
+112 http fetch GET https://registry.npmjs.org/@types/node/-/node-14.14.33.tgz attempt 2 failed with EACCES
+113 http fetch GET https://registry.npmjs.org/mime/-/mime-1.6.0.tgz attempt 2 failed with EACCES
+114 http fetch GET https://registry.npmjs.org/@types/bson/-/bson-4.0.3.tgz attempt 2 failed with EACCES
+115 http fetch GET https://registry.npmjs.org/stripe/-/stripe-8.138.0.tgz attempt 2 failed with EACCES
+116 http fetch GET https://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz attempt 2 failed with EACCES
+117 http fetch GET https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz attempt 2 failed with EACCES
+118 http fetch GET https://registry.npmjs.org/sift/-/sift-7.0.1.tgz attempt 2 failed with EACCES
+119 http fetch GET https://registry.npmjs.org/require_optional/-/require_optional-1.0.1.tgz attempt 2 failed with EACCES
+120 http fetch GET https://registry.npmjs.org/resolve-from/-/resolve-from-2.0.0.tgz attempt 2 failed with EACCES
+121 http fetch GET https://registry.npmjs.org/saslprep/-/saslprep-1.0.3.tgz attempt 2 failed with EACCES
+122 http fetch GET https://registry.npmjs.org/regexp-clone/-/regexp-clone-1.0.0.tgz attempt 2 failed with EACCES
+123 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with EACCES
+124 http fetch GET https://registry.npmjs.org/@types/mongodb/-/mongodb-3.6.9.tgz attempt 3 failed with EACCES
+125 http fetch GET https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz attempt 3 failed with EACCES
+126 http fetch GET https://registry.npmjs.org/semver/-/semver-5.7.1.tgz attempt 3 failed with EACCES
+127 http fetch GET https://registry.npmjs.org/@types/node/-/node-14.14.33.tgz attempt 3 failed with EACCES
+128 http fetch GET https://registry.npmjs.org/mime/-/mime-1.6.0.tgz attempt 3 failed with EACCES
+129 http fetch GET https://registry.npmjs.org/@types/bson/-/bson-4.0.3.tgz attempt 3 failed with EACCES
+130 http fetch GET https://registry.npmjs.org/stripe/-/stripe-8.138.0.tgz attempt 3 failed with EACCES
+131 http fetch GET https://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz attempt 3 failed with EACCES
+132 http fetch GET https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz attempt 3 failed with EACCES
+133 verbose reify failed optional dependency C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus\node_modules\sparse-bitfield
+134 silly reify mark deleted [
+134 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sparse-bitfield'
+134 silly reify ]
+135 verbose reify failed optional dependency C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus\node_modules\saslprep
+136 silly reify mark deleted [
+136 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\saslprep'
+136 silly reify ]
+137 verbose reify failed optional dependency C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus\node_modules\memory-pager
+138 silly reify mark deleted [
+138 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\memory-pager'
+138 silly reify ]
+139 http fetch GET https://registry.npmjs.org/sift/-/sift-7.0.1.tgz attempt 3 failed with EACCES
+140 http fetch GET https://registry.npmjs.org/require_optional/-/require_optional-1.0.1.tgz attempt 3 failed with EACCES
+141 http fetch GET https://registry.npmjs.org/resolve-from/-/resolve-from-2.0.0.tgz attempt 3 failed with EACCES
+142 http fetch GET https://registry.npmjs.org/saslprep/-/saslprep-1.0.3.tgz attempt 3 failed with EACCES
+143 verbose reify failed optional dependency C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus\node_modules\saslprep
+144 silly reify mark deleted [
+144 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\saslprep'
+144 silly reify ]
+145 verbose reify failed optional dependency C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus\node_modules\sparse-bitfield
+146 silly reify mark deleted [
+146 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sparse-bitfield'
+146 silly reify ]
+147 verbose reify failed optional dependency C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus\node_modules\memory-pager
+148 silly reify mark deleted [
+148 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\memory-pager'
+148 silly reify ]
+149 http fetch GET https://registry.npmjs.org/regexp-clone/-/regexp-clone-1.0.0.tgz attempt 3 failed with EACCES
+150 verbose cwd C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus
+151 verbose os Windows_NT 10.0.26200
+152 verbose node v24.15.0
+153 verbose npm  v11.12.1
+154 error Exit handler never called!
+155 error This is an error with npm itself. Please report this error at:
+156 error   <https://github.com/npm/cli/issues>
+157 verbose exit 1
+158 verbose code 1
+159 error A complete log of this run can be found in: C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus\.npm-cache\_logs\2026-07-04T07_06_41_690Z-debug-0.log

@@ -1,0 +1,64 @@
+.tripTypecontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0;
+  animation: panelIn 0.32s ease both;
+}
+
+.hireVehicleHeading {
+  padding: 20px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #b8323a 0%, #d94b54 100%);
+  color: #fff;
+  font-size: clamp(22px, 4vw, 30px);
+  font-weight: 900;
+  line-height: 1.1;
+  box-shadow: 0 18px 34px rgba(184, 50, 58, 0.28);
+}
+
+.journeyTypeDiv {
+  min-height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 18px;
+  border: 1px solid #2b3343;
+  border-radius: 8px;
+  background-color: #181d27;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.28);
+  transition: transform 0.18s ease, border-color 0.18s ease;
+}
+
+.journeyTypeDiv:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 124, 132, 0.48);
+}
+
+.journeyText {
+  color: #f4f7fb;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.journeySubText {
+  margin-top: 6px;
+  color: #b9c2d1;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@keyframes panelIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

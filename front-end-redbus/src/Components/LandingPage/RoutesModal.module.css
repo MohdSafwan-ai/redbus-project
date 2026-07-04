@@ -1,0 +1,155 @@
+.modalCard {
+  width: min(720px, calc(100vw - 28px));
+  max-height: min(86vh, 720px);
+  overflow-y: auto;
+  position: relative;
+  box-sizing: border-box;
+  padding: clamp(20px, 4vw, 30px);
+  border: 1px solid #2b3343;
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at top right, rgba(255, 124, 132, 0.14), transparent 36%),
+    #171b24;
+  color: #eef2f7;
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.5);
+}
+
+.closeButton {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #2b3343;
+  border-radius: 8px;
+  background-color: #10131a;
+  color: #c6cedc;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  color: #fff;
+  border-color: rgba(255, 124, 132, 0.5);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  align-items: center;
+  gap: 14px;
+  padding-right: 42px;
+}
+
+.headerIcon {
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #b8323a 0%, #d94b54 100%);
+  color: #fff;
+  font-size: 22px;
+}
+
+.eyebrow {
+  color: #ff7c84;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  margin: 4px 0 0;
+  color: #f4f7fb;
+  font-size: clamp(24px, 4vw, 34px);
+  line-height: 1.12;
+}
+
+.messageGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.messageBox,
+.routeCard {
+  border: 1px solid #2b3343;
+  border-radius: 8px;
+  background-color: #181d27;
+}
+
+.messageBox {
+  display: flex;
+  gap: 10px;
+  padding: 14px;
+  color: #c6cedc;
+  line-height: 1.55;
+}
+
+.messageBox svg {
+  color: #ff7c84;
+  flex: 0 0 auto;
+  margin-top: 3px;
+}
+
+.messageBox p {
+  margin: 0;
+}
+
+.routeGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.routeCard {
+  padding: 16px;
+}
+
+.routeLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: #f4f7fb;
+  font-weight: 900;
+}
+
+.routeLine svg {
+  color: #ff7c84;
+  flex: 0 0 auto;
+}
+
+.busCount {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  margin-top: 12px;
+  color: #c6cedc;
+}
+
+.busCount svg,
+.busCount strong {
+  color: #ff7c84;
+}
+
+.busCount strong {
+  font-size: 24px;
+}
+
+@media (max-width: 640px) {
+  .messageGrid,
+  .routeGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    grid-template-columns: 1fr;
+    padding-right: 38px;
+  }
+}

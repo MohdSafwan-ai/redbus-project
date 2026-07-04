@@ -1,0 +1,110 @@
+.mainContainer {
+  box-sizing: border-box;
+  background:
+    linear-gradient(180deg, #10131a 0%, #171b24 100%);
+  padding: clamp(38px, 6vw, 72px) 16px;
+  text-align: center;
+}
+
+.imgBox {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 14px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #b8323a 0%, #d94b54 100%);
+  color: #fff;
+  font-size: 28px;
+  box-shadow: 0 18px 34px rgba(184, 50, 58, 0.28);
+}
+
+.mainContainer h1 {
+  margin: 0;
+  color: #f4f7fb;
+  font-size: clamp(26px, 4vw, 40px);
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.flexContainer {
+  width: min(1120px, 100%);
+  margin: 28px auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.flexItems {
+  min-width: 0;
+  min-height: 280px;
+  padding: 24px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #2b3343;
+  border-radius: 8px;
+  background-color: #181d27;
+  color: #eef2f7;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.28);
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.flexItems:hover {
+  transform: translateY(-6px);
+  border-color: rgba(255, 124, 132, 0.5);
+  box-shadow: 0 24px 46px rgba(0, 0, 0, 0.4);
+}
+
+.itemimg {
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background-color: rgba(255, 124, 132, 0.12);
+  color: #ff7c84;
+  font-size: 25px;
+}
+
+.flexItems > p:nth-of-type(1) {
+  margin: 18px 0 10px;
+  color: #f4f7fb;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+.desc {
+  margin: 0;
+  color: #c6cedc;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+@media (max-width: 980px) {
+  .flexContainer {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .mainContainer {
+    padding: 30px 12px;
+  }
+
+  .flexContainer {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 8px;
+  }
+
+  .flexItems {
+    flex: 0 0 min(82vw, 320px);
+    min-height: 0;
+    padding: 22px 16px;
+    scroll-snap-align: start;
+  }
+}

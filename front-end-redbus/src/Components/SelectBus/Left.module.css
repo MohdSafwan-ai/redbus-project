@@ -1,0 +1,82 @@
+.Left {
+  align-self: start;
+  position: sticky;
+  top: 86px;
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid #2b3343;
+  border-radius: 8px;
+  background-color: #181d27;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.28);
+}
+
+.Left ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Left_filters {
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #2b3343;
+}
+
+.Left_filters:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.Left_filters > p {
+  margin: 0 0 10px;
+  color: #f4f7fb;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.8px;
+}
+
+.Left ul li,
+.Left ul li[style] {
+  min-height: 38px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px;
+  box-sizing: border-box;
+  padding: 8px 0 !important;
+  border-bottom: none;
+  color: #c6cedc;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.Left ul li:hover {
+  color: #fff;
+}
+
+.Left ul li svg {
+  color: #ff7c84;
+  flex: 0 0 auto;
+}
+
+.Left ul li p {
+  margin: 0;
+}
+
+.Left input[type="checkbox"] {
+  accent-color: #d94b54;
+}
+
+.Left_filters__amenities li {
+  border: 1px solid #2b3343;
+  border-radius: 8px;
+  background-color: #10131a;
+  margin-bottom: 8px;
+  padding: 10px !important;
+}
+
+@media (max-width: 900px) {
+  .Left {
+    position: static;
+  }
+}

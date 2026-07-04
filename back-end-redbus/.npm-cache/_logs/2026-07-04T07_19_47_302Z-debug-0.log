@@ -1,0 +1,579 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus\.npmrc
+5 silly config load:file:C:\Users\mosaf\.npmrc
+6 silly config load:file:C:\Users\mosaf\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus\.npm-cache\_logs\2026-07-04T07_19_47_302Z-
+10 verbose logfile C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus\.npm-cache\_logs\2026-07-04T07_19_47_302Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\bl'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\bluebird'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\bson'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\denque'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\kareem'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mime'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mongodb'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mongoose'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mongoose-legacy-pluralize'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mpath'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mquery'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\regexp-clone'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\require_optional'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\resolve-from'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\saslprep'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\semver'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sift'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sliced'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sparse-bitfield'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\stripe'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\uuid'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\bson'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\mongodb'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\node'
+37 silly reify ]
+38 silly reify moves {
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\bl': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bl-POomL7uy',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\bluebird': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bluebird-JJuHfpr9',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\bson': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.bson-6vJ71hp8',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\denque': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.denque-WrHkUexW',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\kareem': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.kareem-gKjQBvc9',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mime': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.mime-3pQvkcWq',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mongodb': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.mongodb-6mHyQKWK',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mongoose': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.mongoose-sNy0y7gO',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mongoose-legacy-pluralize': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.mongoose-legacy-pluralize-tDp1erBm',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mpath': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.mpath-Nhpxlp66',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\mquery': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.mquery-xuQd1MJ5',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\regexp-clone': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.regexp-clone-sDGDM6a1',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\require_optional': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.require_optional-shWfpLpW',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\resolve-from': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.resolve-from-eBaYlKqb',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\saslprep': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.saslprep-a2VdQDsL',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\semver': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.semver-6cZg1ofQ',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sift': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.sift-dhRiYhFJ',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sliced': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.sliced-YrIO045w',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\sparse-bitfield': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.sparse-bitfield-e2yei1XW',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\stripe': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.stripe-w0b1V2Qb',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\uuid': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\.uuid-aI8FUaGb',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\bson': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\.bson-lZ1TQlRs',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\mongodb': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\.mongodb-rhARdXPn',
+38 silly reify   'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\node': 'C:\\Users\\mosaf\\OneDrive\\Desktop\\github\\redbus\\back-end-redbus\\node_modules\\@types\\.node-6hFOchyk'
+38 silly reify }
+39 silly audit bulk request {
+39 silly audit   '@types/bson': [ '4.0.3' ],
+39 silly audit   '@types/mongodb': [ '3.6.9' ],
+39 silly audit   '@types/node': [ '14.14.33' ],
+39 silly audit   accepts: [ '1.3.7' ],
+39 silly audit   'array-flatten': [ '1.1.1' ],
+39 silly audit   bl: [ '2.2.1' ],
+39 silly audit   bluebird: [ '3.5.1' ],
+39 silly audit   'body-parser': [ '1.19.0' ],
+39 silly audit   bson: [ '1.1.5' ],
+39 silly audit   bytes: [ '3.1.0' ],
+39 silly audit   'content-disposition': [ '0.5.3' ],
+39 silly audit   'content-type': [ '1.0.4' ],
+39 silly audit   cookie: [ '0.4.0' ],
+39 silly audit   'cookie-signature': [ '1.0.6' ],
+39 silly audit   'core-util-is': [ '1.0.2' ],
+39 silly audit   cors: [ '2.8.5' ],
+39 silly audit   debug: [ '2.6.9', '3.1.0' ],
+39 silly audit   denque: [ '1.5.0' ],
+39 silly audit   depd: [ '1.1.2' ],
+39 silly audit   destroy: [ '1.0.4' ],
+39 silly audit   'ee-first': [ '1.1.1' ],
+39 silly audit   encodeurl: [ '1.0.2' ],
+39 silly audit   'escape-html': [ '1.0.3' ],
+39 silly audit   etag: [ '1.8.1' ],
+39 silly audit   express: [ '4.17.1' ],
+39 silly audit   finalhandler: [ '1.1.2' ],
+39 silly audit   forwarded: [ '0.1.2' ],
+39 silly audit   fresh: [ '0.5.2' ],
+39 silly audit   'http-errors': [ '1.7.2' ],
+39 silly audit   'iconv-lite': [ '0.4.24' ],
+39 silly audit   inherits: [ '2.0.3' ],
+39 silly audit   'ipaddr.js': [ '1.9.1' ],
+39 silly audit   isarray: [ '1.0.0' ],
+39 silly audit   kareem: [ '2.3.2' ],
+39 silly audit   'media-typer': [ '0.3.0' ],
+39 silly audit   'memory-pager': [ '1.5.0' ],
+39 silly audit   'merge-descriptors': [ '1.0.1' ],
+39 silly audit   methods: [ '1.1.2' ],
+39 silly audit   mime: [ '1.6.0' ],
+39 silly audit   'mime-db': [ '1.46.0' ],
+39 silly audit   'mime-types': [ '2.1.29' ],
+39 silly audit   mongodb: [ '3.6.4' ],
+39 silly audit   mongoose: [ '5.11.19' ],
+39 silly audit   'mongoose-legacy-pluralize': [ '1.0.2' ],
+39 silly audit   ms: [ '2.1.2', '2.0.0', '2.1.1' ],
+39 silly audit   'safe-buffer': [ '5.2.1', '5.1.2' ],
+39 silly audit   mpath: [ '0.8.3' ],
+39 silly audit   mquery: [ '3.2.4' ],
+39 silly audit   negotiator: [ '0.6.2' ],
+39 silly audit   'object-assign': [ '4.1.1' ],
+39 silly audit   'on-finished': [ '2.3.0' ],
+39 silly audit   parseurl: [ '1.3.3' ],
+39 silly audit   'path-to-regexp': [ '0.1.7' ],
+39 silly audit   'process-nextick-args': [ '2.0.1' ],
+39 silly audit   'proxy-addr': [ '2.0.6' ],
+39 silly audit   qs: [ '6.7.0' ],
+39 silly audit   'range-parser': [ '1.2.1' ],
+39 silly audit   'raw-body': [ '2.4.0' ],
+39 silly audit   'readable-stream': [ '2.3.7' ],
+39 silly audit   'regexp-clone': [ '1.0.0' ],
+39 silly audit   require_optional: [ '1.0.1' ],
+39 silly audit   'resolve-from': [ '2.0.0' ],
+39 silly audit   'safer-buffer': [ '2.1.2' ],
+39 silly audit   saslprep: [ '1.0.3' ],
+39 silly audit   semver: [ '5.7.1' ],
+39 silly audit   send: [ '0.17.1' ],
+39 silly audit   'serve-static': [ '1.14.1' ],
+39 silly audit   setprototypeof: [ '1.1.1' ],
+39 silly audit   sift: [ '7.0.1' ],
+39 silly audit   sliced: [ '1.0.1' ],
+39 silly audit   'sparse-bitfield': [ '3.0.3' ],
+39 silly audit   statuses: [ '1.5.0' ],
+39 silly audit   string_decoder: [ '1.1.1' ],
+39 silly audit   stripe: [ '8.138.0' ],
+39 silly audit   toidentifier: [ '1.0.0' ],
+39 silly audit   'type-is': [ '1.6.18' ],
+39 silly audit   unpipe: [ '1.0.0' ],
+39 silly audit   'util-deprecate': [ '1.0.2' ],
+39 silly audit   'utils-merge': [ '1.0.1' ],
+39 silly audit   uuid: [ '8.3.2' ],
+39 silly audit   vary: [ '1.1.2' ]
+39 silly audit }
+40 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-14.14.33.tgz 0ms (cache hit)
+41 http cache @types/mongodb@https://registry.npmjs.org/@types/mongodb/-/mongodb-3.6.9.tgz 0ms (cache hit)
+42 http cache @types/bson@https://registry.npmjs.org/@types/bson/-/bson-4.0.3.tgz 0ms (cache hit)
+43 http cache uuid@https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz 0ms (cache hit)
+44 http cache sparse-bitfield@https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz 0ms (cache hit)
+45 http cache stripe@https://registry.npmjs.org/stripe/-/stripe-8.138.0.tgz 0ms (cache hit)
+46 http cache sliced@https://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz 0ms (cache hit)
+47 http cache sift@https://registry.npmjs.org/sift/-/sift-7.0.1.tgz 0ms (cache hit)
+48 http cache semver@https://registry.npmjs.org/semver/-/semver-5.7.1.tgz 0ms (cache hit)
+49 http cache saslprep@https://registry.npmjs.org/saslprep/-/saslprep-1.0.3.tgz 0ms (cache hit)
+50 http cache resolve-from@https://registry.npmjs.org/resolve-from/-/resolve-from-2.0.0.tgz 0ms (cache hit)
+51 http cache regexp-clone@https://registry.npmjs.org/regexp-clone/-/regexp-clone-1.0.0.tgz 0ms (cache hit)
+52 http cache require_optional@https://registry.npmjs.org/require_optional/-/require_optional-1.0.1.tgz 0ms (cache hit)
+53 http cache mquery@https://registry.npmjs.org/mquery/-/mquery-3.2.4.tgz 0ms (cache hit)
+54 http cache mpath@https://registry.npmjs.org/mpath/-/mpath-0.8.3.tgz 0ms (cache hit)
+55 http cache mongoose-legacy-pluralize@https://registry.npmjs.org/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz 0ms (cache hit)
+56 http cache mongoose@https://registry.npmjs.org/mongoose/-/mongoose-5.11.19.tgz 0ms (cache hit)
+57 http cache mongodb@https://registry.npmjs.org/mongodb/-/mongodb-3.6.4.tgz 0ms (cache hit)
+58 http cache mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 0ms (cache hit)
+59 http cache kareem@https://registry.npmjs.org/kareem/-/kareem-2.3.2.tgz 0ms (cache hit)
+60 http cache denque@https://registry.npmjs.org/denque/-/denque-1.5.0.tgz 0ms (cache hit)
+61 http cache bson@https://registry.npmjs.org/bson/-/bson-1.1.5.tgz 0ms (cache hit)
+62 http cache bluebird@https://registry.npmjs.org/bluebird/-/bluebird-3.5.1.tgz 0ms (cache hit)
+63 http cache bl@https://registry.npmjs.org/bl/-/bl-2.2.1.tgz 0ms (cache hit)
+64 http cache safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 0ms (cache hit)
+65 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-14.14.33.tgz. Extracting by manifest.
+66 silly tarball no local data for @types/mongodb@https://registry.npmjs.org/@types/mongodb/-/mongodb-3.6.9.tgz. Extracting by manifest.
+67 silly tarball no local data for @types/bson@https://registry.npmjs.org/@types/bson/-/bson-4.0.3.tgz. Extracting by manifest.
+68 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 0ms (cache hit)
+69 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz. Extracting by manifest.
+70 silly tarball no local data for sparse-bitfield@https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz. Extracting by manifest.
+71 silly tarball no local data for stripe@https://registry.npmjs.org/stripe/-/stripe-8.138.0.tgz. Extracting by manifest.
+72 silly tarball no local data for sliced@https://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz. Extracting by manifest.
+73 silly tarball no local data for sift@https://registry.npmjs.org/sift/-/sift-7.0.1.tgz. Extracting by manifest.
+74 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-5.7.1.tgz. Extracting by manifest.
+75 http cache debug@https://registry.npmjs.org/debug/-/debug-3.1.0.tgz 0ms (cache hit)
+76 silly tarball no local data for saslprep@https://registry.npmjs.org/saslprep/-/saslprep-1.0.3.tgz. Extracting by manifest.
+77 silly tarball no local data for resolve-from@https://registry.npmjs.org/resolve-from/-/resolve-from-2.0.0.tgz. Extracting by manifest.
+78 silly tarball no local data for regexp-clone@https://registry.npmjs.org/regexp-clone/-/regexp-clone-1.0.0.tgz. Extracting by manifest.
+79 silly tarball no local data for require_optional@https://registry.npmjs.org/require_optional/-/require_optional-1.0.1.tgz. Extracting by manifest.
+80 silly tarball no local data for mquery@https://registry.npmjs.org/mquery/-/mquery-3.2.4.tgz. Extracting by manifest.
+81 silly tarball no local data for mpath@https://registry.npmjs.org/mpath/-/mpath-0.8.3.tgz. Extracting by manifest.
+82 silly tarball no local data for mongoose-legacy-pluralize@https://registry.npmjs.org/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz. Extracting by manifest.
+83 silly tarball no local data for mongoose@https://registry.npmjs.org/mongoose/-/mongoose-5.11.19.tgz. Extracting by manifest.
+84 silly tarball no local data for mongodb@https://registry.npmjs.org/mongodb/-/mongodb-3.6.4.tgz. Extracting by manifest.
+85 silly tarball no local data for mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz. Extracting by manifest.
+86 silly tarball no local data for kareem@https://registry.npmjs.org/kareem/-/kareem-2.3.2.tgz. Extracting by manifest.
+87 silly tarball no local data for denque@https://registry.npmjs.org/denque/-/denque-1.5.0.tgz. Extracting by manifest.
+88 silly tarball no local data for bson@https://registry.npmjs.org/bson/-/bson-1.1.5.tgz. Extracting by manifest.
+89 silly tarball no local data for bluebird@https://registry.npmjs.org/bluebird/-/bluebird-3.5.1.tgz. Extracting by manifest.
+90 silly tarball no local data for bl@https://registry.npmjs.org/bl/-/bl-2.2.1.tgz. Extracting by manifest.
+91 silly tarball no local data for safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz. Extracting by manifest.
+92 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+93 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-3.1.0.tgz. Extracting by manifest.
+94 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 619ms
+95 silly audit report {
+95 silly audit report   'body-parser': [
+95 silly audit report     {
+95 silly audit report       id: 1099520,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-qwcr-r2fm-qrc7',
+95 silly audit report       title: 'body-parser vulnerable to denial of service when url encoding is enabled',
+95 silly audit report       severity: 'high',
+95 silly audit report       vulnerable_versions: '<1.20.3',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     }
+95 silly audit report   ],
+95 silly audit report   cookie: [
+95 silly audit report     {
+95 silly audit report       id: 1103907,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-pxg6-pf52-xh8x',
+95 silly audit report       title: 'cookie accepts cookie name, path, and domain with out of bounds characters',
+95 silly audit report       severity: 'low',
+95 silly audit report       vulnerable_versions: '<0.7.0',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     }
+95 silly audit report   ],
+95 silly audit report   express: [
+95 silly audit report     {
+95 silly audit report       id: 1100530,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-qw6h-vgh9-j6wx',
+95 silly audit report       title: 'express vulnerable to XSS via response.redirect()',
+95 silly audit report       severity: 'low',
+95 silly audit report       vulnerable_versions: '<4.20.0',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     },
+95 silly audit report     {
+95 silly audit report       id: 1111636,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-rv95-896h-c2vc',
+95 silly audit report       title: 'Express.js Open Redirect in malformed URLs',
+95 silly audit report       severity: 'moderate',
+95 silly audit report       vulnerable_versions: '<4.19.2',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     }
+95 silly audit report   ],
+95 silly audit report   mongodb: [
+95 silly audit report     {
+95 silly audit report       id: 1109549,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-vxvm-qww3-2fh7',
+95 silly audit report       title: 'MongoDB Driver may publish events containing authentication-related data',
+95 silly audit report       severity: 'moderate',
+95 silly audit report       vulnerable_versions: '>=3.6.0 <3.6.10',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     }
+95 silly audit report   ],
+95 silly audit report   mongoose: [
+95 silly audit report     {
+95 silly audit report       id: 1118999,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-wpg9-53fq-2r8h',
+95 silly audit report       title: "Mongoose's Improper Sanitization of $nor in sanitizeFilter May Allow NoSQL Injection",
+95 silly audit report       severity: 'high',
+95 silly audit report       vulnerable_versions: '<6.13.9',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     },
+95 silly audit report     {
+95 silly audit report       id: 1112939,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-m7xq-9374-9rvx',
+95 silly audit report       title: 'Mongoose search injection vulnerability',
+95 silly audit report       severity: 'high',
+95 silly audit report       vulnerable_versions: '>=3.6.0-rc0 <5.13.23',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     },
+95 silly audit report     {
+95 silly audit report       id: 1095078,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-f825-f98c-gj3g',
+95 silly audit report       title: 'automattic/mongoose vulnerable to Prototype pollution via Schema.path',
+95 silly audit report       severity: 'high',
+95 silly audit report       vulnerable_versions: '<5.13.15',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     },
+95 silly audit report     {
+95 silly audit report       id: 1095080,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-9m93-w8w6-76hh',
+95 silly audit report       title: 'Mongoose Prototype Pollution vulnerability',
+95 silly audit report       severity: 'critical',
+95 silly audit report       vulnerable_versions: '<5.13.20',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     },
+95 silly audit report     {
+95 silly audit report       id: 1117404,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-vg7j-7cwx-8wgw',
+95 silly audit report       title: 'Mongoose search injection vulnerability',
+95 silly audit report       severity: 'critical',
+95 silly audit report       vulnerable_versions: '<6.13.6',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     },
+95 silly audit report     {
+95 silly audit report       id: 1097158,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-h8hf-x3f4-xwgp',
+95 silly audit report       title: 'Mongoose Vulnerable to Prototype Pollution in Schema Object',
+95 silly audit report       severity: 'critical',
+95 silly audit report       vulnerable_versions: '<5.13.15',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     }
+95 silly audit report   ],
+95 silly audit report   mpath: [
+95 silly audit report     {
+95 silly audit report       id: 1095075,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-p92x-r36w-9395',
+95 silly audit report       title: 'Type confusion in mpath',
+95 silly audit report       severity: 'moderate',
+95 silly audit report       vulnerable_versions: '<0.8.4',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     }
+95 silly audit report   ],
+95 silly audit report   'path-to-regexp': [
+95 silly audit report     {
+95 silly audit report       id: 1101850,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-9wv6-86v2-598j',
+95 silly audit report       title: 'path-to-regexp outputs backtracking regular expressions',
+95 silly audit report       severity: 'high',
+95 silly audit report       vulnerable_versions: '<0.1.10',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     },
+95 silly audit report     {
+95 silly audit report       id: 1105199,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-rhx6-c78j-4q9w',
+95 silly audit report       title: 'path-to-regexp contains a ReDoS',
+95 silly audit report       severity: 'high',
+95 silly audit report       vulnerable_versions: '<0.1.12',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     },
+95 silly audit report     {
+95 silly audit report       id: 1115527,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-37ch-88jc-xwx2',
+95 silly audit report       title: 'path-to-regexp vulnerable to Regular Expression Denial of Service via multiple route parameters',
+95 silly audit report       severity: 'high',
+95 silly audit report       vulnerable_versions: '<0.1.13',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     }
+95 silly audit report   ],
+95 silly audit report   qs: [
+95 silly audit report     {
+95 silly audit report       id: 1104120,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-hrpp-h998-j3pp',
+95 silly audit report       title: 'qs vulnerable to Prototype Pollution',
+95 silly audit report       severity: 'high',
+95 silly audit report       vulnerable_versions: '>=6.7.0 <6.7.3',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     },
+95 silly audit report     {
+95 silly audit report       id: 1113161,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-w7fw-mjwx-w883',
+95 silly audit report       title: "qs's arrayLimit bypass in comma parsing allows denial of service",
+95 silly audit report       severity: 'low',
+95 silly audit report       vulnerable_versions: '>=6.7.0 <=6.14.1',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     },
+95 silly audit report     {
+95 silly audit report       id: 1113719,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-6rw7-vpxm-498p',
+95 silly audit report       title: "qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+95 silly audit report       severity: 'moderate',
+95 silly audit report       vulnerable_versions: '<6.14.1',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     }
+95 silly audit report   ],
+95 silly audit report   semver: [
+95 silly audit report     {
+95 silly audit report       id: 1112918,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-c2qf-rxjj-qqgw',
+95 silly audit report       title: 'semver vulnerable to Regular Expression Denial of Service',
+95 silly audit report       severity: 'high',
+95 silly audit report       vulnerable_versions: '>=2.0.0-alpha <5.7.2',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     }
+95 silly audit report   ],
+95 silly audit report   send: [
+95 silly audit report     {
+95 silly audit report       id: 1109556,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-m6fv-jmcg-4jfg',
+95 silly audit report       title: 'send vulnerable to template injection that can lead to XSS',
+95 silly audit report       severity: 'low',
+95 silly audit report       vulnerable_versions: '<0.19.0',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     }
+95 silly audit report   ],
+95 silly audit report   'serve-static': [
+95 silly audit report     {
+95 silly audit report       id: 1100528,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-cm22-4g7w-348p',
+95 silly audit report       title: 'serve-static vulnerable to template injection that can lead to XSS',
+95 silly audit report       severity: 'low',
+95 silly audit report       vulnerable_versions: '<1.16.0',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     }
+95 silly audit report   ],
+95 silly audit report   uuid: [
+95 silly audit report     {
+95 silly audit report       id: 1119441,
+95 silly audit report       url: 'https://github.com/advisories/GHSA-w5hq-g745-h8pq',
+95 silly audit report       title: 'uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided',
+95 silly audit report       severity: 'moderate',
+95 silly audit report       vulnerable_versions: '<11.1.1',
+95 silly audit report       cwe: [Array],
+95 silly audit report       cvss: [Object]
+95 silly audit report     }
+95 silly audit report   ]
+95 silly audit report }
+96 silly packumentCache corgi:https://registry.npmjs.org/body-parser cache-miss
+97 silly packumentCache corgi:https://registry.npmjs.org/cookie cache-miss
+98 silly packumentCache corgi:https://registry.npmjs.org/express cache-miss
+99 silly packumentCache corgi:https://registry.npmjs.org/mongodb cache-miss
+100 silly packumentCache corgi:https://registry.npmjs.org/mongoose cache-miss
+101 silly packumentCache corgi:https://registry.npmjs.org/mpath cache-miss
+102 silly packumentCache corgi:https://registry.npmjs.org/path-to-regexp cache-miss
+103 silly packumentCache corgi:https://registry.npmjs.org/qs cache-miss
+104 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+105 silly packumentCache corgi:https://registry.npmjs.org/send cache-miss
+106 silly packumentCache corgi:https://registry.npmjs.org/serve-static cache-miss
+107 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz 688ms (cache miss)
+109 http fetch GET 200 https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz 693ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/resolve-from/-/resolve-from-2.0.0.tgz 695ms (cache miss)
+111 http fetch GET 200 https://registry.npmjs.org/denque/-/denque-1.5.0.tgz 735ms (cache miss)
+112 http fetch GET 200 https://registry.npmjs.org/regexp-clone/-/regexp-clone-1.0.0.tgz 743ms (cache miss)
+113 http fetch GET 200 https://registry.npmjs.org/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz 773ms (cache miss)
+114 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 789ms (cache miss)
+115 http fetch GET 200 https://registry.npmjs.org/bl/-/bl-2.2.1.tgz 919ms (cache miss)
+116 http fetch GET 200 https://registry.npmjs.org/cookie 365ms (cache miss)
+117 silly packumentCache corgi:https://registry.npmjs.org/cookie set size:undefined disposed:false
+118 http fetch GET 200 https://registry.npmjs.org/mpath 367ms (cache miss)
+119 silly packumentCache corgi:https://registry.npmjs.org/mpath set size:undefined disposed:false
+120 http fetch GET 200 https://registry.npmjs.org/require_optional/-/require_optional-1.0.1.tgz 948ms (cache miss)
+121 http fetch GET 200 https://registry.npmjs.org/@types/bson/-/bson-4.0.3.tgz 962ms (cache miss)
+122 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 961ms (cache miss)
+123 http fetch GET 200 https://registry.npmjs.org/serve-static 387ms (cache miss)
+124 silly packumentCache corgi:https://registry.npmjs.org/serve-static set size:undefined disposed:false
+125 http fetch GET 200 https://registry.npmjs.org/path-to-regexp 402ms (cache miss)
+126 silly packumentCache corgi:https://registry.npmjs.org/path-to-regexp set size:undefined disposed:false
+127 http fetch GET 200 https://registry.npmjs.org/send 450ms (cache miss)
+128 silly packumentCache corgi:https://registry.npmjs.org/send set size:undefined disposed:false
+129 http fetch GET 200 https://registry.npmjs.org/qs 459ms (cache miss)
+130 silly packumentCache corgi:https://registry.npmjs.org/qs set size:undefined disposed:false
+131 http fetch GET 200 https://registry.npmjs.org/body-parser 488ms (cache miss)
+132 silly packumentCache corgi:https://registry.npmjs.org/body-parser set size:undefined disposed:false
+133 http fetch GET 200 https://registry.npmjs.org/semver 525ms (cache miss)
+134 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+135 http fetch GET 200 https://registry.npmjs.org/@types/mongodb/-/mongodb-3.6.9.tgz 1122ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/uuid 555ms (cache miss)
+137 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:undefined disposed:false
+138 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-5.7.1.tgz 1151ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 1156ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/kareem/-/kareem-2.3.2.tgz 1172ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/express 608ms (cache miss)
+142 silly packumentCache corgi:https://registry.npmjs.org/express set size:undefined disposed:false
+143 http fetch GET 200 https://registry.npmjs.org/mpath/-/mpath-0.8.3.tgz 1212ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-3.1.0.tgz 1301ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/saslprep/-/saslprep-1.0.3.tgz 1388ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/sift/-/sift-7.0.1.tgz 1508ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/mongodb 966ms (cache miss)
+148 silly packumentCache corgi:https://registry.npmjs.org/mongodb set size:undefined disposed:false
+149 http fetch GET 200 https://registry.npmjs.org/mongoose 1019ms (cache miss)
+150 silly packumentCache corgi:https://registry.npmjs.org/mongoose set size:undefined disposed:false
+151 http fetch GET 200 https://registry.npmjs.org/mquery/-/mquery-3.2.4.tgz 1686ms (cache miss)
+152 silly packumentCache corgi:https://registry.npmjs.org/mongoose-legacy-pluralize cache-miss
+153 http fetch GET 200 https://registry.npmjs.org/bson/-/bson-1.1.5.tgz 2381ms (cache miss)
+154 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-14.14.33.tgz 2453ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/bluebird/-/bluebird-3.5.1.tgz 2496ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz 2584ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/mongoose-legacy-pluralize 343ms (cache miss)
+158 silly packumentCache corgi:https://registry.npmjs.org/mongoose-legacy-pluralize set size:undefined disposed:false
+159 silly packumentCache corgi:https://registry.npmjs.org/stripe cache-miss
+160 http fetch GET 200 https://registry.npmjs.org/stripe 466ms (cache miss)
+161 silly packumentCache corgi:https://registry.npmjs.org/stripe set size:undefined disposed:false
+162 silly packumentCache corgi:https://registry.npmjs.org/require_optional cache-miss
+163 http fetch GET 200 https://registry.npmjs.org/mongodb/-/mongodb-3.6.4.tgz 3257ms (cache miss)
+164 http fetch GET 200 https://registry.npmjs.org/require_optional 305ms (cache miss)
+165 silly packumentCache corgi:https://registry.npmjs.org/require_optional set size:undefined disposed:false
+166 http fetch GET 200 https://registry.npmjs.org/stripe/-/stripe-8.138.0.tgz 3611ms (cache miss)
+167 http fetch GET 200 https://registry.npmjs.org/mongoose/-/mongoose-5.11.19.tgz 3622ms (cache miss)
+168 silly CHANGE node_modules/@types/node
+169 silly CHANGE node_modules/@types/mongodb
+170 silly CHANGE node_modules/@types/bson
+171 silly CHANGE node_modules/uuid
+172 silly CHANGE node_modules/stripe
+173 silly CHANGE node_modules/sparse-bitfield
+174 silly CHANGE node_modules/sliced
+175 silly CHANGE node_modules/sift
+176 silly CHANGE node_modules/semver
+177 silly CHANGE node_modules/saslprep
+178 silly CHANGE node_modules/resolve-from
+179 silly CHANGE node_modules/require_optional
+180 silly CHANGE node_modules/regexp-clone
+181 silly CHANGE node_modules/mquery
+182 silly CHANGE node_modules/mquery/node_modules/debug
+183 silly CHANGE node_modules/mpath
+184 silly CHANGE node_modules/mongoose-legacy-pluralize
+185 silly CHANGE node_modules/mongoose
+186 silly ADD node_modules/mongoose/node_modules/safe-buffer
+187 silly ADD node_modules/mongoose/node_modules/ms
+188 silly CHANGE node_modules/mongodb
+189 silly CHANGE node_modules/mime
+190 silly CHANGE node_modules/kareem
+191 silly CHANGE node_modules/denque
+192 silly CHANGE node_modules/bson
+193 silly CHANGE node_modules/bluebird
+194 silly CHANGE node_modules/bl
+195 verbose cwd C:\Users\mosaf\OneDrive\Desktop\github\redbus\back-end-redbus
+196 verbose os Windows_NT 10.0.26200
+197 verbose node v24.15.0
+198 verbose npm  v11.12.1
+199 verbose exit 0
+200 info ok

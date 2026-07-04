@@ -1,0 +1,134 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #10131a;
+  color: #eef2f7;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+.flex::-webkit-scrollbar,
+.lowerFlex::-webkit-scrollbar,
+.flexContainer::-webkit-scrollbar,
+.awardsGrid::-webkit-scrollbar,
+.countryGrid::-webkit-scrollbar,
+.statsGrid::-webkit-scrollbar,
+.cityList::-webkit-scrollbar {
+  display: none;
+}
+
+.page-transition-shell {
+  animation: pageEnter 420ms ease both;
+  transform-origin: top center;
+}
+
+.app-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  gap: 18px;
+  align-content: center;
+  background:
+    radial-gradient(circle at top left, rgba(255, 124, 132, 0.18), transparent 34%),
+    linear-gradient(135deg, #090b10 0%, #171b24 54%, #8f1f28 100%);
+  animation: loaderExit 760ms ease forwards;
+}
+
+.app-loader__mark {
+  width: 68px;
+  height: 68px;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #b8323a 0%, #d94b54 100%);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: uppercase;
+  box-shadow: 0 22px 48px rgba(0, 0, 0, 0.36);
+  animation: loaderPulse 760ms ease infinite alternate;
+}
+
+.app-loader__bar {
+  width: min(220px, 58vw);
+  height: 4px;
+  overflow: hidden;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+.app-loader__bar span {
+  width: 42%;
+  height: 100%;
+  display: block;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #ff7c84, #ffd166);
+  animation: loaderBar 740ms ease-in-out infinite;
+}
+
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+    filter: blur(3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes loaderPulse {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-4px) scale(1.03);
+  }
+}
+
+@keyframes loaderBar {
+  from {
+    transform: translateX(-105%);
+  }
+  to {
+    transform: translateX(245%);
+  }
+}
+
+@keyframes loaderExit {
+  0%,
+  68% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 1ms !important;
+  }
+}

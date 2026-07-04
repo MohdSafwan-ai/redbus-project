@@ -1,0 +1,17 @@
+.Right {
+  min-width: 0;
+  color: #eef2f7;
+}
+
+.Right > h1,
+.Right > div {
+  color: #eef2f7;
+}
+
+.Right > h1 {
+  padding: 28px;
+  border: 1px solid #2b3343;
+  border-radius: 8px;
+  background-color: #181d27;
+  text-align: center;
+}

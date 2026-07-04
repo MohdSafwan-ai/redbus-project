@@ -1,0 +1,30 @@
+.SelectBus {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background:
+    radial-gradient(circle at top right, rgba(255, 124, 132, 0.12), transparent 34%),
+    #10131a;
+  color: #eef2f7;
+}
+
+.SelectBus_mainContent {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(240px, 280px) minmax(0, 1fr);
+  gap: 18px;
+  padding: 18px 0 42px;
+}
+
+@media (max-width: 900px) {
+  .SelectBus_mainContent {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .SelectBus_mainContent {
+    width: min(100% - 24px, 1180px);
+    padding-top: 12px;
+  }
+}

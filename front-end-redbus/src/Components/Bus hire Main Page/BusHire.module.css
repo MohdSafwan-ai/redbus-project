@@ -1,0 +1,360 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #10131a;
+}
+
+.baneer {
+  min-height: 100vh;
+  background-color: #10131a;
+  color: #eef2f7;
+}
+
+.heroSection {
+  min-height: clamp(360px, 42vw, 540px);
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: clamp(42px, 7vw, 92px) clamp(16px, 5vw, 72px);
+  background-image:
+    linear-gradient(90deg, rgba(8, 11, 17, 0.94) 0%, rgba(16, 19, 26, 0.76) 42%, rgba(143, 31, 40, 0.16) 78%),
+    linear-gradient(0deg, rgba(16, 19, 26, 0.84), rgba(16, 19, 26, 0.06) 46%),
+    url("../../assets/bus-hire-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  border-bottom: 1px solid #2b3343;
+  box-shadow: inset 0 -90px 130px rgba(16, 19, 26, 0.84);
+}
+
+.imageBanner {
+  display: none;
+}
+
+.bannerElementDiv {
+  width: min(520px, 100%);
+}
+
+.bannerBusHireText {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(42px, 7vw, 74px);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.bannerBusHireSubText {
+  max-width: 470px;
+  margin-top: 14px;
+  color: #d4dbe8;
+  font-size: clamp(18px, 2.2vw, 25px);
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.bookInEasyStepsdiv,
+.withBusHireYouCanGet,
+.VehicleYouCanGet,
+.whyBookWithBushire,
+.rcommutediv {
+  width: min(1120px, calc(100% - 32px));
+  margin: clamp(28px, 5vw, 56px) auto;
+  box-sizing: border-box;
+}
+
+.bookInEasyStepsdiv,
+.withBusHireYouCanGet,
+.VehicleYouCanGet,
+.whyBookWithBushire {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: clamp(20px, 3vw, 34px);
+  border: 1px solid #2b3343;
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at top right, rgba(255, 124, 132, 0.1), transparent 34%),
+    #171b24;
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.28);
+}
+
+.bookInEasySteps_heading {
+  width: auto !important;
+  color: #f4f7fb;
+  font-size: clamp(24px, 4vw, 38px);
+  font-weight: 900;
+  line-height: 1.12;
+}
+
+.bookInEaschStep {
+  width: 100%;
+  min-height: 128px;
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr) minmax(150px, 220px);
+  align-items: center;
+  gap: 18px;
+  box-sizing: border-box;
+  padding: 18px;
+  border: 1px solid #2b3343;
+  border-radius: 8px;
+  background-color: #181d27;
+}
+
+.bookInEaschStep img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bookInEaschStepText,
+.BusHireEachFeatureText {
+  color: #f4f7fb;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.withBusHireYouCanGet > div:nth-child(2) {
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.BusHireFeatures {
+  width: auto;
+  height: auto;
+  min-height: 190px;
+  margin: 0;
+  border: 1px solid #2b3343;
+  border-radius: 8px;
+  background-color: #181d27;
+}
+
+.BusHireEachFeature {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 18px;
+}
+
+.BusHireEachFeature img {
+  height: 70px !important;
+  max-width: 100%;
+}
+
+.rcommutediv {
+  padding: 22px;
+  border: 1px solid #2a406b;
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at top right, rgba(141, 183, 255, 0.16), transparent 34%),
+    #151f35;
+}
+
+.rcommuteText {
+  color: #eef2f7;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.rcommuteText_para,
+.hireuswhenever_paraSection,
+.list {
+  width: min(780px, 100%);
+  color: #cbd4e3;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.knowMoreText {
+  margin-top: 12px;
+  color: #8db7ff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.vehicleTypeImage,
+.whyBookWithBushire_firstFeature,
+.whyBookWithBushire_secondFeature,
+.whyBookWithBushire_thirdFeature {
+  width: min(720px, 100%);
+  min-height: 160px;
+  height: auto;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid #2b3343;
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(184, 50, 58, 0.18), rgba(24, 29, 39, 0.94)),
+    #181d27;
+  overflow: hidden;
+  position: relative;
+}
+
+.vehicleTypeImage {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.vehicleTypeImage img,
+.whyBookWithBushire img {
+  max-width: 42%;
+  height: auto !important;
+  object-fit: contain;
+}
+
+.vehicleText {
+  position: static;
+  margin-left: 18px;
+}
+
+.vehicleText > h3,
+.whyBookWithBushire_insideFeature_text > h3 {
+  color: #f4f7fb;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.vehicleText > p {
+  color: #cbd4e3;
+  font-size: 16px;
+}
+
+.whyBookWithBushire_insideFeature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 20px;
+}
+
+.whyBookWithBushire_insideFeature_text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.whyBookWithBushire_thirdFeature {
+  padding: 20px;
+}
+
+.list {
+  margin-top: 0;
+  padding-left: 18px;
+}
+
+.switchPanel {
+  width: min(520px, calc(100% - 32px));
+  position: fixed;
+  right: clamp(16px, 4vw, 56px);
+  top: 88px;
+  z-index: 30;
+  animation: switchIn 0.32s ease both;
+}
+
+@keyframes switchIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 1100px) {
+  .withBusHireYouCanGet > div:nth-child(2) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .heroSection {
+    min-height: 520px;
+    align-items: flex-end;
+    background-position: 66% center;
+  }
+
+  .switchPanel {
+    width: min(620px, calc(100% - 32px));
+    position: static;
+    margin: 24px auto;
+  }
+
+  .bookInEaschStep {
+    grid-template-columns: 54px minmax(0, 1fr);
+  }
+
+  .bookInEaschStep > div:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .withBusHireYouCanGet > div:nth-child(2) {
+    display: flex !important;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 8px;
+  }
+
+  .BusHireFeatures {
+    flex: 0 0 min(78vw, 260px);
+    scroll-snap-align: start;
+  }
+
+  .vehicleTypeImage,
+  .whyBookWithBushire_insideFeature {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .vehicleTypeImage img,
+  .whyBookWithBushire img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSection {
+    min-height: 470px;
+    padding: 28px 12px 24px;
+    background-position: 72% center;
+  }
+
+  .bookInEasyStepsdiv,
+  .withBusHireYouCanGet,
+  .VehicleYouCanGet,
+  .whyBookWithBushire,
+  .rcommutediv {
+    width: min(100% - 24px, 1120px);
+    padding: 18px;
+  }
+
+  .bookInEasyStepsdiv {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: min(82vw, 320px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .bookInEasySteps_heading {
+    grid-column: 1 / -1;
+  }
+
+  .bookInEaschStep {
+    scroll-snap-align: start;
+  }
+
+  .VehicleYouCanGet,
+  .whyBookWithBushire {
+    max-height: 520px;
+    overflow-y: auto;
+  }
+}
